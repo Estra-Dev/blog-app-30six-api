@@ -32,6 +32,7 @@ export const registerUser = async (req, res) => {
   }
 }
 
+
 export const loginUser = async (req, res) => {
   const {name, password} = req.body
   const userDoc = await RegisteredUser.findOne({name})

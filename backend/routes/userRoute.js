@@ -24,7 +24,7 @@ route.get("/profile", getProfile)
 
 const storage = multer.diskStorage({
   destination(req, file, cb) {
-    cb(null, '../blog_remake/frontend/src/assets/')
+    cb(null, '../blog_30six/frontend/src/assets/')
   },
   filename: function(req, file, cb) {
     cb(
