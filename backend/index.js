@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 app.use("/", route)
 const corsOptions ={
-  origin:["http://localhost:5173"], 
+  origin:["http://localhost:5173", "https://blog-app-30six.onrender.com"], 
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }

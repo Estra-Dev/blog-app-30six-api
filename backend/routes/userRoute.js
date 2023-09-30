@@ -6,7 +6,7 @@ import multer from 'multer'
 import path from 'path'
 
 const corsOptions ={
-  origin:["http://localhost:5173", ""], 
+  origin:["http://localhost:5173", "https://blog-app-30six.onrender.com"], 
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }
